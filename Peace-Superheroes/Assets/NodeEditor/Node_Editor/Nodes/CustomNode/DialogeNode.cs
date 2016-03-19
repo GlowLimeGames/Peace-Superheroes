@@ -14,7 +14,7 @@ public class DialogeNode : Node
     {
         DialogeNode node = CreateInstance<DialogeNode>();
 
-        node.rect = new Rect(pos.x, pos.y, 150, 60);
+        node.rect = new Rect(pos.x, pos.y, 500, 300);
         node.name = "Dialoge Node";
 
         node.CreateInput("Value", "Float");
@@ -34,7 +34,7 @@ public class DialogeNode : Node
 
         GUILayout.EndVertical();
 
-        dialoge = GUILayout.TextArea(dialoge, 300);
+        dialoge = GUILayout.TextArea(dialoge);
 
         GUILayout.BeginVertical();
 
