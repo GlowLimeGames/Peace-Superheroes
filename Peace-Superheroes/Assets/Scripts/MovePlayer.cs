@@ -7,7 +7,6 @@ using UnityEngine.Assertions;
 public class MovePlayer : MonoBehaviour {
 
     public MoveToTarget player;
-    public Island[] islands;
 
 	// Use this for initialization
 	void Start () {
